@@ -1,0 +1,118 @@
+{% load static %}  <link rel="stylesheet" href="{% static 'customermanagement/css/customer_search.css' %}">
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Service Support</title>
+    <!-- Linking Google Fonts For Icons -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,400,0,0" />
+</head>
+<body>
+
+<div class="chat-list scrolleable-list">
+
+    <header class="header">
+        <!-- Header Greetings -->
+        <h3 class="title">Customer E-Commerce Platform</h3>
+    </header>
+
+    <div class="message">
+
+        <div class="suggestion-list">
+            <div class="text">The following are some of the commands to be run, the query option takes SPARQL queries:</div>
+        </div>
+        <div class="suggestion-list">
+            <div class="suggestion text">
+                    Simple questions for customers
+                    <pre style="font-style: italic">
+                        1. list customers in the platform
+                        2. customer by email kgillbeyf@nps.gov
+                    </pre>
+            </div>
+            <div class="suggestion text">
+                    Simple questions for orders
+                    <pre style="font-style: italic">
+                        1. list orders in the platform
+                        2. list orders
+                        3. orders for kgillbeyf@nps.gov
+                    </pre>
+                </div>
+        </div>
+        <div class="suggestion-list">
+            <div class="text">For advanced SPARQL queries, use the format and pass the query:</div>
+        </div>
+        <div class="suggestion-list">
+            <div class="text suggestion">
+                <pre style="font-size: 13px; font-style: italic">query:SELECT ?customeremail ?name WHERE {  ?customer a ecom:Customer ; ecom:email ?customeremail ; ecom:name ?name ; ecom:placesOrder ?order . ?order a ecom:Order ; ecom:orderStatus "delivered" ; ecom:containsProduct ?product . ?product a ecom:Product ; ecom:productName "vivo Xplay6" . }
+                </pre>
+            </div>
+            <div class="text suggestion">
+                <pre style="font-size: 13px; font-style: italic">query:SELECT ?customeremail ?name WHERE {  ?customer a ecom:Customer ; ecom:email ?customeremail ;
+                        ecom:name ?name ; ecom:placesOrder ?order . ?order a ecom:Order ; ecom:orderStatus "delivered" ; ecom:containsProduct
+                        ?product . ?product a ecom:Product ; ecom:productName "vivo Xplay6" . }
+                </pre>
+            </div>
+        </div>
+
+        {% for item in data_response %}
+          {% if item.type == 'user' %}
+          <div class="text">
+             <p class="text" style="font-size: 13px; font-style: italic">{{ item.content }}</p>
+          </div>
+          {% else %}
+          <div class="incoming">
+             <div class="text">The following are the results of the query
+                 <table class="text">
+                    <thead>
+                    <tr>
+                        {% for key in item.content.0.keys %}
+                          <th>{{ key }}</th>
+                        {% endfor %}
+                    </tr>
+                    </thead>
+                     <tbody>
+                     {% for row in item.content %}
+                      <tr>
+                          {% for key, value in row.items %}
+                          <td>{{value}}</td>
+                          {% endfor %}
+                      </tr>
+                     {% endfor %}
+                    </tbody>
+                 </table>
+            </div>
+          </div>
+          {% endif %}
+        {% endfor %}
+
+
+    </div>
+
+</div>
+
+
+
+<!-- Typing Area -->
+<div class="typing-area">
+    <form method="post" class="typing-form">
+        {% csrf_token %}
+        <div class="input-wrapper">
+            {{form.prompt}}
+            <button id="send-message-button" type="submit" class="icon material-symbols-rounded">send</button>
+        </div>
+        <div id="buttonDel" class="action-buttons">
+            <span id="delete-chat-button" class="icon material-symbols-rounded">delete</span>
+        </div>
+    </form>
+    <p class="disclaimer-text">
+        Submitted by wekesa clinton
+    </p>
+</div>
+<script src="{% static 'customermanagement/js/jquery3.7.js' %}"></script>
+<script src="{% static 'customermanagement/js/customer_api.js' %}"></script>
+</body>
+</html>
+
+

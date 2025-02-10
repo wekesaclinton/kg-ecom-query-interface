@@ -1,0 +1,773 @@
+@prefix ecom: <http://example.org/ecommerce#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ecom:0209dad7c4087b335881e9c9e5c4bd40c350cf54cca50024cf7f96d8aae65a22 a ecom:Customer,
+        owl:Thing ;
+    ecom:email "amarciskewskid@dedecms.com" ;
+    ecom:name "Agathe Marciskewski" ;
+    ecom:placesOrder <http://example.org/ecommerce#-od-00209dad7c4087b335881e9c9e5c4bd40c350cf54cca50024cf7f96d8aae65a22> ;
+    owl:sameAs ecom:0209dad7c4087b335881e9c9e5c4bd40c350cf54cca50024cf7f96d8aae65a22 .
+
+ecom:04c9646ef05feda4419da394a79918c938ae4a258763276ba3afa6c724b700ec a ecom:Customer,
+        owl:Thing ;
+    ecom:email "cfetherstonhaughj@lycos.com" ;
+    ecom:name "Carma Fetherstonhaugh" ;
+    ecom:placesOrder <http://example.org/ecommerce#-od-004c9646ef05feda4419da394a79918c938ae4a258763276ba3afa6c724b700ec> ;
+    owl:sameAs ecom:04c9646ef05feda4419da394a79918c938ae4a258763276ba3afa6c724b700ec .
+
+ecom:0916bc1c38a22d11c21c71f611db9ec451cd1fbea17dbefeb1e7824888946aa2 a ecom:Customer,
+        owl:Thing ;
+    ecom:email "ktootinga@wsj.com" ;
+    ecom:name "Kendre Tooting" ;
+    ecom:placesOrder <http://example.org/ecommerce#-od-00916bc1c38a22d11c21c71f611db9ec451cd1fbea17dbefeb1e7824888946aa2> ;
+    owl:sameAs ecom:0916bc1c38a22d11c21c71f611db9ec451cd1fbea17dbefeb1e7824888946aa2 .
+
+ecom:152b5f8689441bdd36f44ec65ad00bb55b037351266c0f8b686d6579eb7a4c69 a ecom:Customer,
+        owl:Thing ;
+    ecom:email "kgillbeyf@nps.gov" ;
+    ecom:name "Kordula Gillbey" ;
+    ecom:placesOrder <http://example.org/ecommerce#-od-0152b5f8689441bdd36f44ec65ad00bb55b037351266c0f8b686d6579eb7a4c69> ;
+    owl:sameAs ecom:152b5f8689441bdd36f44ec65ad00bb55b037351266c0f8b686d6579eb7a4c69 .
+
+ecom:1ba5ba6dd0176e8fd7c8c93ef5bf48e8ffd504c21614b009e6f2ecccdd3a3c1e a ecom:Customer,
+        owl:Thing ;
+    ecom:email "bboddyi@phoca.cz" ;
+    ecom:name "Bridget Boddy" ;
+    ecom:placesOrder <http://example.org/ecommerce#-od-01ba5ba6dd0176e8fd7c8c93ef5bf48e8ffd504c21614b009e6f2ecccdd3a3c1e> ;
+    owl:sameAs ecom:1ba5ba6dd0176e8fd7c8c93ef5bf48e8ffd504c21614b009e6f2ecccdd3a3c1e .
+
+ecom:1e408da237aa125ead73341d08f2252220056d637b60cbd284fad138d3072eea a ecom:Customer,
+        owl:Thing ;
+    ecom:email "lbisterfeld2@reuters.com" ;
+    ecom:name "Leila Bisterfeld" ;
+    ecom:placesOrder <http://example.org/ecommerce#-od-01e408da237aa125ead73341d08f2252220056d637b60cbd284fad138d3072eea> ;
+    owl:sameAs ecom:1e408da237aa125ead73341d08f2252220056d637b60cbd284fad138d3072eea .
+
+ecom:3741db3dbc0bc1d1c8545b851de36c68625b879c585223629934081754eef615 a ecom:Customer,
+        owl:Thing ;
+    ecom:email "cred4@posterous.com" ;
+    ecom:name "Ceciley Red" ;
+    ecom:placesOrder <http://example.org/ecommerce#-od-03741db3dbc0bc1d1c8545b851de36c68625b879c585223629934081754eef615> ;
+    owl:sameAs ecom:3741db3dbc0bc1d1c8545b851de36c68625b879c585223629934081754eef615 .
+
+ecom:405fb34afe4dc61ec61b59d84ef61d667e70e1a7dc4de38177af6e11be55c6aa a ecom:Customer,
+        owl:Thing ;
+    ecom:email "credsulle@wiley.com" ;
+    ecom:name "Craig Redsull" ;
+    ecom:placesOrder <http://example.org/ecommerce#-od-0405fb34afe4dc61ec61b59d84ef61d667e70e1a7dc4de38177af6e11be55c6aa> ;
+    owl:sameAs ecom:405fb34afe4dc61ec61b59d84ef61d667e70e1a7dc4de38177af6e11be55c6aa .
+
+ecom:552b4e4b6ca7e85c9775183c6e325b45f2f1861b2f6985a9a56bbe373f1438bb a ecom:Customer,
+        owl:Thing ;
+    ecom:email "dsainsburybrown6@bbb.org" ;
+    ecom:name "Dorri Sainsbury-Brown" ;
+    ecom:placesOrder <http://example.org/ecommerce#-od-0552b4e4b6ca7e85c9775183c6e325b45f2f1861b2f6985a9a56bbe373f1438bb>,
+        <http://example.org/ecommerce#-od-1552b4e4b6ca7e85c9775183c6e325b45f2f1861b2f6985a9a56bbe373f1438bb> ;
+    owl:sameAs ecom:552b4e4b6ca7e85c9775183c6e325b45f2f1861b2f6985a9a56bbe373f1438bb .
+
+ecom:662dd0ee78e80223af0b459b249f3fa1bd4f76b40f43b145614bb0d5648eb8d6 a ecom:Customer,
+        owl:Thing ;
+    ecom:email "vjarry1@nature.com" ;
+    ecom:name "Vernice Jarry" ;
+    ecom:placesOrder <http://example.org/ecommerce#-od-0662dd0ee78e80223af0b459b249f3fa1bd4f76b40f43b145614bb0d5648eb8d6> ;
+    owl:sameAs ecom:662dd0ee78e80223af0b459b249f3fa1bd4f76b40f43b145614bb0d5648eb8d6 .
+
+ecom:6980b28c176074e9cb0110e983c4cb6031b0f8be077b850ddd99c960d5a17840 a ecom:Customer,
+        owl:Thing ;
+    ecom:email "ptournayh@ft.com" ;
+    ecom:name "Perkin Tournay" ;
+    ecom:placesOrder <http://example.org/ecommerce#-od-06980b28c176074e9cb0110e983c4cb6031b0f8be077b850ddd99c960d5a17840> ;
+    owl:sameAs ecom:6980b28c176074e9cb0110e983c4cb6031b0f8be077b850ddd99c960d5a17840 .
+
+ecom:742ae6aeaf5c8c2a1d57aa69bee6c11bb44e2ae3edd1b7c5ca35146da7fbc20c a ecom:Customer,
+        owl:Thing ;
+    ecom:email "bwhatford8@sphinn.com" ;
+    ecom:name "Barrett Whatford" ;
+    ecom:placesOrder <http://example.org/ecommerce#-od-0742ae6aeaf5c8c2a1d57aa69bee6c11bb44e2ae3edd1b7c5ca35146da7fbc20c> ;
+    owl:sameAs ecom:742ae6aeaf5c8c2a1d57aa69bee6c11bb44e2ae3edd1b7c5ca35146da7fbc20c .
+
+ecom:87889baf5fc80a729d1df058a60077f074094110f74af4a1481b6b3768d4e491 a ecom:Customer,
+        owl:Thing ;
+    ecom:email "lingerfieldb@gnu.org" ;
+    ecom:name "Lorna Ingerfield" ;
+    ecom:placesOrder <http://example.org/ecommerce#-od-087889baf5fc80a729d1df058a60077f074094110f74af4a1481b6b3768d4e491> ;
+    owl:sameAs ecom:87889baf5fc80a729d1df058a60077f074094110f74af4a1481b6b3768d4e491 .
+
+ecom:9099ac935597401ce833f2aa8fd02ad693b27bd04dfa272185ce8f1d9367d90b a ecom:Customer,
+        owl:Thing ;
+    ecom:email "mainsbury3@yandex.ru" ;
+    ecom:name "Minny Ainsbury" ;
+    ecom:placesOrder <http://example.org/ecommerce#-od-09099ac935597401ce833f2aa8fd02ad693b27bd04dfa272185ce8f1d9367d90b> ;
+    owl:sameAs ecom:9099ac935597401ce833f2aa8fd02ad693b27bd04dfa272185ce8f1d9367d90b .
+
+ecom:946f2a3227438b808ee0754661c26599143dc170315fc90d9904af59ae66a109 a ecom:Customer,
+        owl:Thing ;
+    ecom:email "energer5@ezinearticles.com" ;
+    ecom:name "Egon Nerger" ;
+    ecom:placesOrder <http://example.org/ecommerce#-od-0946f2a3227438b808ee0754661c26599143dc170315fc90d9904af59ae66a109> ;
+    owl:sameAs ecom:946f2a3227438b808ee0754661c26599143dc170315fc90d9904af59ae66a109 .
+
+ecom:a7f67c888297006021ca9f38e92d603d48f8e4a0c88a7354c5309f7ebe0a2447 a ecom:Customer,
+        owl:Thing ;
+    ecom:email "rlumoxg@acquirethisname.com" ;
+    ecom:name "Ronna Lumox" ;
+    ecom:placesOrder <http://example.org/ecommerce#-od-0a7f67c888297006021ca9f38e92d603d48f8e4a0c88a7354c5309f7ebe0a2447> ;
+    owl:sameAs ecom:a7f67c888297006021ca9f38e92d603d48f8e4a0c88a7354c5309f7ebe0a2447 .
+
+ecom:ac01d0a8cf8802ab68b1b029b50f865a5dac9611a3564f33b98d71ef637bde0f a ecom:Customer,
+        owl:Thing ;
+    ecom:email "lnicec@simplemachines.org" ;
+    ecom:name "Lynnet Nice" ;
+    ecom:placesOrder <http://example.org/ecommerce#-od-0ac01d0a8cf8802ab68b1b029b50f865a5dac9611a3564f33b98d71ef637bde0f> ;
+    owl:sameAs ecom:ac01d0a8cf8802ab68b1b029b50f865a5dac9611a3564f33b98d71ef637bde0f .
+
+ecom:c2717fcbfa26e91aa93659ebd4d6579b38b800fce92cd4272c6ad9083fe54819 a ecom:Customer,
+        owl:Thing ;
+    ecom:email "vnotley0@slideshare.net" ;
+    ecom:name "Verney Notley" ;
+    ecom:placesOrder <http://example.org/ecommerce#-od-0c2717fcbfa26e91aa93659ebd4d6579b38b800fce92cd4272c6ad9083fe54819>,
+        <http://example.org/ecommerce#-od-1c2717fcbfa26e91aa93659ebd4d6579b38b800fce92cd4272c6ad9083fe54819> ;
+    owl:sameAs ecom:c2717fcbfa26e91aa93659ebd4d6579b38b800fce92cd4272c6ad9083fe54819 .
+
+ecom:c7b228861779d1604024fd52cd71543463ea62ecbbb472ec3920bd38c49fbb8a a ecom:Customer,
+        owl:Thing ;
+    ecom:email "fharcus7@posterous.com" ;
+    ecom:name "Florencia Harcus" ;
+    ecom:placesOrder <http://example.org/ecommerce#-od-0c7b228861779d1604024fd52cd71543463ea62ecbbb472ec3920bd38c49fbb8a> ;
+    owl:sameAs ecom:c7b228861779d1604024fd52cd71543463ea62ecbbb472ec3920bd38c49fbb8a .
+
+ecom:cost owl:sameAs ecom:cost .
+
+ecom:email owl:sameAs ecom:email .
+
+ecom:fecd5b8f0fec34abb28110862b86ae901b79bbeddc5a1a91f25faef8f3e76b47 a ecom:Customer,
+        owl:Thing ;
+    ecom:email "dstickney9@stanford.edu" ;
+    ecom:name "Dick Stickney" ;
+    ecom:placesOrder <http://example.org/ecommerce#-od-0fecd5b8f0fec34abb28110862b86ae901b79bbeddc5a1a91f25faef8f3e76b47>,
+        <http://example.org/ecommerce#-od-1fecd5b8f0fec34abb28110862b86ae901b79bbeddc5a1a91f25faef8f3e76b47> ;
+    owl:sameAs ecom:fecd5b8f0fec34abb28110862b86ae901b79bbeddc5a1a91f25faef8f3e76b47 .
+
+ecom:name owl:sameAs ecom:name .
+
+ecom:orderStatus owl:sameAs ecom:orderStatus .
+
+ecom:productName owl:sameAs ecom:productName .
+
+rdf:HTML a rdfs:Datatype ;
+    owl:sameAs rdf:HTML .
+
+rdf:PlainLiteral a rdfs:Datatype ;
+    owl:sameAs rdf:PlainLiteral .
+
+rdf:XMLLiteral a rdfs:Datatype ;
+    owl:sameAs rdf:XMLLiteral .
+
+rdf:langString a rdfs:Datatype ;
+    owl:sameAs rdf:langString .
+
+rdf:type owl:sameAs rdf:type .
+
+rdfs:Literal a rdfs:Datatype ;
+    owl:sameAs rdfs:Literal .
+
+rdfs:comment a owl:AnnotationProperty ;
+    owl:sameAs rdfs:comment .
+
+rdfs:domain owl:sameAs rdfs:domain .
+
+rdfs:isDefinedBy a owl:AnnotationProperty ;
+    owl:sameAs rdfs:isDefinedBy .
+
+rdfs:label a owl:AnnotationProperty ;
+    owl:sameAs rdfs:label .
+
+rdfs:range owl:sameAs rdfs:range .
+
+rdfs:seeAlso a owl:AnnotationProperty ;
+    owl:sameAs rdfs:seeAlso .
+
+rdfs:subClassOf owl:sameAs rdfs:subClassOf .
+
+rdfs:subPropertyOf owl:sameAs rdfs:subPropertyOf .
+
+xsd:NCName a rdfs:Datatype ;
+    owl:sameAs xsd:NCName .
+
+xsd:NMTOKEN a rdfs:Datatype ;
+    owl:sameAs xsd:NMTOKEN .
+
+xsd:Name a rdfs:Datatype ;
+    owl:sameAs xsd:Name .
+
+xsd:anyURI a rdfs:Datatype ;
+    owl:sameAs xsd:anyURI .
+
+xsd:base64Binary a rdfs:Datatype ;
+    owl:sameAs xsd:base64Binary .
+
+xsd:boolean a rdfs:Datatype ;
+    owl:sameAs xsd:boolean .
+
+xsd:byte a rdfs:Datatype ;
+    owl:sameAs xsd:byte .
+
+xsd:date a rdfs:Datatype ;
+    owl:sameAs xsd:date .
+
+xsd:dateTime a rdfs:Datatype ;
+    owl:sameAs xsd:dateTime .
+
+xsd:dateTimeStamp a rdfs:Datatype ;
+    owl:sameAs xsd:dateTimeStamp .
+
+xsd:decimal a rdfs:Datatype ;
+    owl:sameAs xsd:decimal .
+
+xsd:double a rdfs:Datatype ;
+    owl:sameAs xsd:double .
+
+xsd:float a rdfs:Datatype ;
+    owl:sameAs xsd:float .
+
+xsd:hexBinary a rdfs:Datatype ;
+    owl:sameAs xsd:hexBinary .
+
+xsd:int a rdfs:Datatype ;
+    owl:sameAs xsd:int .
+
+xsd:integer a rdfs:Datatype ;
+    owl:sameAs xsd:integer .
+
+xsd:language a rdfs:Datatype ;
+    owl:sameAs xsd:language .
+
+xsd:long a rdfs:Datatype ;
+    owl:sameAs xsd:long .
+
+xsd:negativeInteger a rdfs:Datatype ;
+    owl:sameAs xsd:negativeInteger .
+
+xsd:nonNegativeInteger a rdfs:Datatype ;
+    owl:sameAs xsd:nonNegativeInteger .
+
+xsd:nonPositiveInteger a rdfs:Datatype ;
+    owl:sameAs xsd:nonPositiveInteger .
+
+xsd:normalizedString a rdfs:Datatype ;
+    owl:sameAs xsd:normalizedString .
+
+xsd:positiveInteger a rdfs:Datatype ;
+    owl:sameAs xsd:positiveInteger .
+
+xsd:short a rdfs:Datatype ;
+    owl:sameAs xsd:short .
+
+xsd:string a rdfs:Datatype ;
+    owl:sameAs xsd:string .
+
+xsd:time a rdfs:Datatype ;
+    owl:sameAs xsd:time .
+
+xsd:token a rdfs:Datatype ;
+    owl:sameAs xsd:token .
+
+xsd:unsignedByte a rdfs:Datatype ;
+    owl:sameAs xsd:unsignedByte .
+
+xsd:unsignedInt a rdfs:Datatype ;
+    owl:sameAs xsd:unsignedInt .
+
+xsd:unsignedLong a rdfs:Datatype ;
+    owl:sameAs xsd:unsignedLong .
+
+xsd:unsignedShort a rdfs:Datatype ;
+    owl:sameAs xsd:unsignedShort .
+
+owl:backwardCompatibleWith a owl:AnnotationProperty ;
+    owl:sameAs owl:backwardCompatibleWith .
+
+owl:deprecated a owl:AnnotationProperty ;
+    owl:sameAs owl:deprecated .
+
+owl:equivalentClass owl:sameAs owl:equivalentClass .
+
+owl:equivalentProperty owl:sameAs owl:equivalentProperty .
+
+owl:incompatibleWith a owl:AnnotationProperty ;
+    owl:sameAs owl:incompatibleWith .
+
+owl:priorVersion a owl:AnnotationProperty ;
+    owl:sameAs owl:priorVersion .
+
+owl:sameAs owl:sameAs owl:sameAs .
+
+owl:versionInfo a owl:AnnotationProperty ;
+    owl:sameAs owl:versionInfo .
+
+<http://example.org/ecommerce#-od-00209dad7c4087b335881e9c9e5c4bd40c350cf54cca50024cf7f96d8aae65a22> a ecom:Order,
+        owl:Thing ;
+    ecom:containsProduct ecom:eeacc0e7481e2094f8f6a803d29e7dc1999c7d249387b1857c9e681e886547a4 ;
+    ecom:cost "5318" ;
+    ecom:orderStatus "cancelled" ;
+    owl:sameAs <http://example.org/ecommerce#-od-00209dad7c4087b335881e9c9e5c4bd40c350cf54cca50024cf7f96d8aae65a22> .
+
+<http://example.org/ecommerce#-od-004c9646ef05feda4419da394a79918c938ae4a258763276ba3afa6c724b700ec> a ecom:Order,
+        owl:Thing ;
+    ecom:containsProduct ecom:0df0625523964459150dd3ba2509ebfcb7eafca3c99409495e70eb8d5aafc34b,
+        ecom:350da9c40aca99cd09321d21c3eb7008e1534a30aabe6be71f26785e05bf224d,
+        ecom:eeacc0e7481e2094f8f6a803d29e7dc1999c7d249387b1857c9e681e886547a4 ;
+    ecom:cost "37823" ;
+    ecom:orderStatus "cancelled" ;
+    owl:sameAs <http://example.org/ecommerce#-od-004c9646ef05feda4419da394a79918c938ae4a258763276ba3afa6c724b700ec> .
+
+<http://example.org/ecommerce#-od-00916bc1c38a22d11c21c71f611db9ec451cd1fbea17dbefeb1e7824888946aa2> a ecom:Order,
+        owl:Thing ;
+    ecom:containsProduct ecom:5b4cab0ee696cbf46f795b0b40fa316e259692ba520e67633b035f291bb83dfa ;
+    ecom:cost "15836" ;
+    ecom:orderStatus "in-transit" ;
+    owl:sameAs <http://example.org/ecommerce#-od-00916bc1c38a22d11c21c71f611db9ec451cd1fbea17dbefeb1e7824888946aa2> .
+
+<http://example.org/ecommerce#-od-0152b5f8689441bdd36f44ec65ad00bb55b037351266c0f8b686d6579eb7a4c69> a ecom:Order,
+        owl:Thing ;
+    ecom:containsProduct ecom:eeacc0e7481e2094f8f6a803d29e7dc1999c7d249387b1857c9e681e886547a4 ;
+    ecom:cost "5318" ;
+    ecom:orderStatus "delivered" ;
+    owl:sameAs <http://example.org/ecommerce#-od-0152b5f8689441bdd36f44ec65ad00bb55b037351266c0f8b686d6579eb7a4c69> .
+
+<http://example.org/ecommerce#-od-01ba5ba6dd0176e8fd7c8c93ef5bf48e8ffd504c21614b009e6f2ecccdd3a3c1e> a ecom:Order,
+        owl:Thing ;
+    ecom:containsProduct ecom:eeacc0e7481e2094f8f6a803d29e7dc1999c7d249387b1857c9e681e886547a4 ;
+    ecom:cost "5318" ;
+    ecom:orderStatus "cancelled" ;
+    owl:sameAs <http://example.org/ecommerce#-od-01ba5ba6dd0176e8fd7c8c93ef5bf48e8ffd504c21614b009e6f2ecccdd3a3c1e> .
+
+<http://example.org/ecommerce#-od-01e408da237aa125ead73341d08f2252220056d637b60cbd284fad138d3072eea> a ecom:Order,
+        owl:Thing ;
+    ecom:containsProduct ecom:149c39bce96b1b74d544f3cfc3f6ff9035a05b59d46fe4a4af465d29cbd77a01,
+        ecom:5b4cab0ee696cbf46f795b0b40fa316e259692ba520e67633b035f291bb83dfa,
+        ecom:eeacc0e7481e2094f8f6a803d29e7dc1999c7d249387b1857c9e681e886547a4 ;
+    ecom:cost "30905" ;
+    ecom:orderStatus "shipped" ;
+    owl:sameAs <http://example.org/ecommerce#-od-01e408da237aa125ead73341d08f2252220056d637b60cbd284fad138d3072eea> .
+
+<http://example.org/ecommerce#-od-03741db3dbc0bc1d1c8545b851de36c68625b879c585223629934081754eef615> a ecom:Order,
+        owl:Thing ;
+    ecom:containsProduct ecom:adbd9bfada4ca518db1f8eaf2d1fc7d61914d6afe4a7701ee1e5cb491794853a ;
+    ecom:cost "17412" ;
+    ecom:orderStatus "shipped" ;
+    owl:sameAs <http://example.org/ecommerce#-od-03741db3dbc0bc1d1c8545b851de36c68625b879c585223629934081754eef615> .
+
+<http://example.org/ecommerce#-od-0405fb34afe4dc61ec61b59d84ef61d667e70e1a7dc4de38177af6e11be55c6aa> a ecom:Order,
+        owl:Thing ;
+    ecom:containsProduct ecom:78635cb37c15711434b77b038b50a7ad40d6e81792b19de1669894d82d17bc7b ;
+    ecom:cost "20799" ;
+    ecom:orderStatus "delivered" ;
+    owl:sameAs <http://example.org/ecommerce#-od-0405fb34afe4dc61ec61b59d84ef61d667e70e1a7dc4de38177af6e11be55c6aa> .
+
+<http://example.org/ecommerce#-od-0552b4e4b6ca7e85c9775183c6e325b45f2f1861b2f6985a9a56bbe373f1438bb> a ecom:Order,
+        owl:Thing ;
+    ecom:containsProduct ecom:adbd9bfada4ca518db1f8eaf2d1fc7d61914d6afe4a7701ee1e5cb491794853a ;
+    ecom:cost "17412" ;
+    ecom:orderStatus "shipped" ;
+    owl:sameAs <http://example.org/ecommerce#-od-0552b4e4b6ca7e85c9775183c6e325b45f2f1861b2f6985a9a56bbe373f1438bb> .
+
+<http://example.org/ecommerce#-od-0662dd0ee78e80223af0b459b249f3fa1bd4f76b40f43b145614bb0d5648eb8d6> a ecom:Order,
+        owl:Thing ;
+    ecom:containsProduct ecom:149c39bce96b1b74d544f3cfc3f6ff9035a05b59d46fe4a4af465d29cbd77a01,
+        ecom:5b4cab0ee696cbf46f795b0b40fa316e259692ba520e67633b035f291bb83dfa,
+        ecom:eeacc0e7481e2094f8f6a803d29e7dc1999c7d249387b1857c9e681e886547a4 ;
+    ecom:cost "30905" ;
+    ecom:orderStatus "delivered" ;
+    owl:sameAs <http://example.org/ecommerce#-od-0662dd0ee78e80223af0b459b249f3fa1bd4f76b40f43b145614bb0d5648eb8d6> .
+
+<http://example.org/ecommerce#-od-06980b28c176074e9cb0110e983c4cb6031b0f8be077b850ddd99c960d5a17840> a ecom:Order,
+        owl:Thing ;
+    ecom:containsProduct ecom:eeacc0e7481e2094f8f6a803d29e7dc1999c7d249387b1857c9e681e886547a4 ;
+    ecom:cost "5318" ;
+    ecom:orderStatus "delivered" ;
+    owl:sameAs <http://example.org/ecommerce#-od-06980b28c176074e9cb0110e983c4cb6031b0f8be077b850ddd99c960d5a17840> .
+
+<http://example.org/ecommerce#-od-0742ae6aeaf5c8c2a1d57aa69bee6c11bb44e2ae3edd1b7c5ca35146da7fbc20c> a ecom:Order,
+        owl:Thing ;
+    ecom:containsProduct ecom:eeacc0e7481e2094f8f6a803d29e7dc1999c7d249387b1857c9e681e886547a4 ;
+    ecom:cost "17412" ;
+    ecom:orderStatus "shipped" ;
+    owl:sameAs <http://example.org/ecommerce#-od-0742ae6aeaf5c8c2a1d57aa69bee6c11bb44e2ae3edd1b7c5ca35146da7fbc20c> .
+
+<http://example.org/ecommerce#-od-087889baf5fc80a729d1df058a60077f074094110f74af4a1481b6b3768d4e491> a ecom:Order,
+        owl:Thing ;
+    ecom:containsProduct ecom:1a3a06e6a9c1bb05349f19decb02445272e8eb90a94c98311cf86fa1d36f5bf0 ;
+    ecom:cost "15513" ;
+    ecom:orderStatus "delivered" ;
+    owl:sameAs <http://example.org/ecommerce#-od-087889baf5fc80a729d1df058a60077f074094110f74af4a1481b6b3768d4e491> .
+
+<http://example.org/ecommerce#-od-09099ac935597401ce833f2aa8fd02ad693b27bd04dfa272185ce8f1d9367d90b> a ecom:Order,
+        owl:Thing ;
+    ecom:containsProduct ecom:f408f4df834c374e7993067376a601654828b88a83468fc16cfd9715a06dda72 ;
+    ecom:cost "9454" ;
+    ecom:orderStatus "shipped" ;
+    owl:sameAs <http://example.org/ecommerce#-od-09099ac935597401ce833f2aa8fd02ad693b27bd04dfa272185ce8f1d9367d90b> .
+
+<http://example.org/ecommerce#-od-0946f2a3227438b808ee0754661c26599143dc170315fc90d9904af59ae66a109> a ecom:Order,
+        owl:Thing ;
+    ecom:containsProduct ecom:adbd9bfada4ca518db1f8eaf2d1fc7d61914d6afe4a7701ee1e5cb491794853a ;
+    ecom:cost "17412" ;
+    ecom:orderStatus "shipped" ;
+    owl:sameAs <http://example.org/ecommerce#-od-0946f2a3227438b808ee0754661c26599143dc170315fc90d9904af59ae66a109> .
+
+<http://example.org/ecommerce#-od-0a7f67c888297006021ca9f38e92d603d48f8e4a0c88a7354c5309f7ebe0a2447> a ecom:Order,
+        owl:Thing ;
+    ecom:containsProduct ecom:eeacc0e7481e2094f8f6a803d29e7dc1999c7d249387b1857c9e681e886547a4 ;
+    ecom:cost "5318" ;
+    ecom:orderStatus "shipped" ;
+    owl:sameAs <http://example.org/ecommerce#-od-0a7f67c888297006021ca9f38e92d603d48f8e4a0c88a7354c5309f7ebe0a2447> .
+
+<http://example.org/ecommerce#-od-0ac01d0a8cf8802ab68b1b029b50f865a5dac9611a3564f33b98d71ef637bde0f> a ecom:Order,
+        owl:Thing ;
+    ecom:containsProduct ecom:149c39bce96b1b74d544f3cfc3f6ff9035a05b59d46fe4a4af465d29cbd77a01 ;
+    ecom:cost "9751" ;
+    ecom:orderStatus "shipping" ;
+    owl:sameAs <http://example.org/ecommerce#-od-0ac01d0a8cf8802ab68b1b029b50f865a5dac9611a3564f33b98d71ef637bde0f> .
+
+<http://example.org/ecommerce#-od-0c2717fcbfa26e91aa93659ebd4d6579b38b800fce92cd4272c6ad9083fe54819> a ecom:Order,
+        owl:Thing ;
+    ecom:containsProduct ecom:149c39bce96b1b74d544f3cfc3f6ff9035a05b59d46fe4a4af465d29cbd77a01,
+        ecom:eeacc0e7481e2094f8f6a803d29e7dc1999c7d249387b1857c9e681e886547a4 ;
+    ecom:cost "15069" ;
+    ecom:orderStatus "in-transit" ;
+    owl:sameAs <http://example.org/ecommerce#-od-0c2717fcbfa26e91aa93659ebd4d6579b38b800fce92cd4272c6ad9083fe54819> .
+
+<http://example.org/ecommerce#-od-0c7b228861779d1604024fd52cd71543463ea62ecbbb472ec3920bd38c49fbb8a> a ecom:Order,
+        owl:Thing ;
+    ecom:containsProduct ecom:adbd9bfada4ca518db1f8eaf2d1fc7d61914d6afe4a7701ee1e5cb491794853a ;
+    ecom:cost "17412" ;
+    ecom:orderStatus "in-transit" ;
+    owl:sameAs <http://example.org/ecommerce#-od-0c7b228861779d1604024fd52cd71543463ea62ecbbb472ec3920bd38c49fbb8a> .
+
+<http://example.org/ecommerce#-od-0fecd5b8f0fec34abb28110862b86ae901b79bbeddc5a1a91f25faef8f3e76b47> a ecom:Order,
+        owl:Thing ;
+    ecom:containsProduct ecom:5b4cab0ee696cbf46f795b0b40fa316e259692ba520e67633b035f291bb83dfa,
+        ecom:adbd9bfada4ca518db1f8eaf2d1fc7d61914d6afe4a7701ee1e5cb491794853a ;
+    ecom:cost "33248" ;
+    ecom:orderStatus "shipped" ;
+    owl:sameAs <http://example.org/ecommerce#-od-0fecd5b8f0fec34abb28110862b86ae901b79bbeddc5a1a91f25faef8f3e76b47> .
+
+<http://example.org/ecommerce#-od-1552b4e4b6ca7e85c9775183c6e325b45f2f1861b2f6985a9a56bbe373f1438bb> a ecom:Order,
+        owl:Thing ;
+    ecom:containsProduct ecom:0df0625523964459150dd3ba2509ebfcb7eafca3c99409495e70eb8d5aafc34b ;
+    ecom:cost "13298" ;
+    ecom:orderStatus "in-transit" ;
+    owl:sameAs <http://example.org/ecommerce#-od-1552b4e4b6ca7e85c9775183c6e325b45f2f1861b2f6985a9a56bbe373f1438bb> .
+
+<http://example.org/ecommerce#-od-1c2717fcbfa26e91aa93659ebd4d6579b38b800fce92cd4272c6ad9083fe54819> a ecom:Order,
+        owl:Thing ;
+    ecom:containsProduct ecom:0df0625523964459150dd3ba2509ebfcb7eafca3c99409495e70eb8d5aafc34b ;
+    ecom:cost "13298" ;
+    ecom:orderStatus "shipped" ;
+    owl:sameAs <http://example.org/ecommerce#-od-1c2717fcbfa26e91aa93659ebd4d6579b38b800fce92cd4272c6ad9083fe54819> .
+
+<http://example.org/ecommerce#-od-1fecd5b8f0fec34abb28110862b86ae901b79bbeddc5a1a91f25faef8f3e76b47> a ecom:Order,
+        owl:Thing ;
+    ecom:containsProduct ecom:78635cb37c15711434b77b038b50a7ad40d6e81792b19de1669894d82d17bc7b ;
+    ecom:cost "20799" ;
+    ecom:orderStatus "delivered" ;
+    owl:sameAs <http://example.org/ecommerce#-od-1fecd5b8f0fec34abb28110862b86ae901b79bbeddc5a1a91f25faef8f3e76b47> .
+
+ecom:1a3a06e6a9c1bb05349f19decb02445272e8eb90a94c98311cf86fa1d36f5bf0 a ecom:Product,
+        owl:Thing ;
+    ecom:cost "15513" ;
+    ecom:productName "Samsung Galaxy Tab Pro 8.4" ;
+    owl:sameAs ecom:1a3a06e6a9c1bb05349f19decb02445272e8eb90a94c98311cf86fa1d36f5bf0 .
+
+ecom:350da9c40aca99cd09321d21c3eb7008e1534a30aabe6be71f26785e05bf224d a ecom:Product,
+        owl:Thing ;
+    ecom:cost "19207" ;
+    ecom:productName "Motorola StarTAC 85" ;
+    owl:sameAs ecom:350da9c40aca99cd09321d21c3eb7008e1534a30aabe6be71f26785e05bf224d .
+
+ecom:f408f4df834c374e7993067376a601654828b88a83468fc16cfd9715a06dda72 a ecom:Product,
+        owl:Thing ;
+    ecom:cost "9454" ;
+    ecom:productName "alcatel Pixi 2" ;
+    owl:sameAs ecom:f408f4df834c374e7993067376a601654828b88a83468fc16cfd9715a06dda72 .
+
+"15069" owl:sameAs "15069" .
+
+"19207" owl:sameAs "19207" .
+
+"33248" owl:sameAs "33248" .
+
+"37823" owl:sameAs "37823" .
+
+"Agathe Marciskewski" owl:sameAs "Agathe Marciskewski" .
+
+"Barrett Whatford" owl:sameAs "Barrett Whatford" .
+
+"Bridget Boddy" owl:sameAs "Bridget Boddy" .
+
+"Carma Fetherstonhaugh" owl:sameAs "Carma Fetherstonhaugh" .
+
+"Ceciley Red" owl:sameAs "Ceciley Red" .
+
+"Craig Redsull" owl:sameAs "Craig Redsull" .
+
+"Dick Stickney" owl:sameAs "Dick Stickney" .
+
+"Dorri Sainsbury-Brown" owl:sameAs "Dorri Sainsbury-Brown" .
+
+"Egon Nerger" owl:sameAs "Egon Nerger" .
+
+"Ericsson GF 388" owl:sameAs "Ericsson GF 388" .
+
+"Florencia Harcus" owl:sameAs "Florencia Harcus" .
+
+"Kendre Tooting" owl:sameAs "Kendre Tooting" .
+
+"Kordula Gillbey" owl:sameAs "Kordula Gillbey" .
+
+"LG G4c" owl:sameAs "LG G4c" .
+
+"Leila Bisterfeld" owl:sameAs "Leila Bisterfeld" .
+
+"Lorna Ingerfield" owl:sameAs "Lorna Ingerfield" .
+
+"Lynnet Nice" owl:sameAs "Lynnet Nice" .
+
+"Minny Ainsbury" owl:sameAs "Minny Ainsbury" .
+
+"Motorola EX212" owl:sameAs "Motorola EX212" .
+
+"Motorola RIZR Z3" owl:sameAs "Motorola RIZR Z3" .
+
+"Motorola StarTAC 85" owl:sameAs "Motorola StarTAC 85" .
+
+"Perkin Tournay" owl:sameAs "Perkin Tournay" .
+
+"Ronna Lumox" owl:sameAs "Ronna Lumox" .
+
+"Samsung Galaxy Tab Pro 8.4" owl:sameAs "Samsung Galaxy Tab Pro 8.4" .
+
+"Verney Notley" owl:sameAs "Verney Notley" .
+
+"Vernice Jarry" owl:sameAs "Vernice Jarry" .
+
+"Vodafone 858 Smart" owl:sameAs "Vodafone 858 Smart" .
+
+"alcatel Pixi 2" owl:sameAs "alcatel Pixi 2" .
+
+"amarciskewskid@dedecms.com" owl:sameAs "amarciskewskid@dedecms.com" .
+
+"bboddyi@phoca.cz" owl:sameAs "bboddyi@phoca.cz" .
+
+"bwhatford8@sphinn.com" owl:sameAs "bwhatford8@sphinn.com" .
+
+"cfetherstonhaughj@lycos.com" owl:sameAs "cfetherstonhaughj@lycos.com" .
+
+"cred4@posterous.com" owl:sameAs "cred4@posterous.com" .
+
+"credsulle@wiley.com" owl:sameAs "credsulle@wiley.com" .
+
+"dsainsburybrown6@bbb.org" owl:sameAs "dsainsburybrown6@bbb.org" .
+
+"dstickney9@stanford.edu" owl:sameAs "dstickney9@stanford.edu" .
+
+"energer5@ezinearticles.com" owl:sameAs "energer5@ezinearticles.com" .
+
+"fharcus7@posterous.com" owl:sameAs "fharcus7@posterous.com" .
+
+"kgillbeyf@nps.gov" owl:sameAs "kgillbeyf@nps.gov" .
+
+"ktootinga@wsj.com" owl:sameAs "ktootinga@wsj.com" .
+
+"lbisterfeld2@reuters.com" owl:sameAs "lbisterfeld2@reuters.com" .
+
+"lingerfieldb@gnu.org" owl:sameAs "lingerfieldb@gnu.org" .
+
+"lnicec@simplemachines.org" owl:sameAs "lnicec@simplemachines.org" .
+
+"mainsbury3@yandex.ru" owl:sameAs "mainsbury3@yandex.ru" .
+
+"ptournayh@ft.com" owl:sameAs "ptournayh@ft.com" .
+
+"rlumoxg@acquirethisname.com" owl:sameAs "rlumoxg@acquirethisname.com" .
+
+"shipping" owl:sameAs "shipping" .
+
+"vivo Xplay6" owl:sameAs "vivo Xplay6" .
+
+"vjarry1@nature.com" owl:sameAs "vjarry1@nature.com" .
+
+"vnotley0@slideshare.net" owl:sameAs "vnotley0@slideshare.net" .
+
+ecom:78635cb37c15711434b77b038b50a7ad40d6e81792b19de1669894d82d17bc7b a ecom:Product,
+        owl:Thing ;
+    ecom:cost "20799" ;
+    ecom:productName "Vodafone 858 Smart" ;
+    owl:sameAs ecom:78635cb37c15711434b77b038b50a7ad40d6e81792b19de1669894d82d17bc7b .
+
+ecom:containsProduct a owl:ObjectProperty ;
+    rdfs:domain ecom:Order,
+        owl:Thing ;
+    rdfs:range ecom:Product,
+        owl:Thing ;
+    rdfs:subPropertyOf ecom:containsProduct ;
+    owl:equivalentProperty ecom:containsProduct ;
+    owl:sameAs ecom:containsProduct .
+
+ecom:handlesTicket a owl:ObjectProperty ;
+    rdfs:domain ecom:Agent,
+        owl:Thing ;
+    rdfs:range ecom:SupportTicket,
+        owl:Thing ;
+    rdfs:subPropertyOf ecom:handlesTicket ;
+    owl:equivalentProperty ecom:handlesTicket ;
+    owl:sameAs ecom:handlesTicket .
+
+ecom:placesOrder a owl:ObjectProperty ;
+    rdfs:domain ecom:Customer,
+        owl:Thing ;
+    rdfs:range ecom:Order,
+        owl:Thing ;
+    rdfs:subPropertyOf ecom:placesOrder ;
+    owl:equivalentProperty ecom:placesOrder ;
+    owl:sameAs ecom:placesOrder .
+
+ecom:raisedByCustomer a owl:ObjectProperty ;
+    rdfs:domain ecom:SupportTicket,
+        owl:Thing ;
+    rdfs:range ecom:Customer,
+        owl:Thing ;
+    rdfs:subPropertyOf ecom:raisedByCustomer ;
+    owl:equivalentProperty ecom:raisedByCustomer ;
+    owl:sameAs ecom:raisedByCustomer .
+
+ecom:relatedToIssueType a owl:ObjectProperty ;
+    rdfs:domain ecom:FAQ,
+        owl:Thing ;
+    rdfs:range ecom:SupportTicket,
+        owl:Thing ;
+    rdfs:subPropertyOf ecom:relatedToIssueType ;
+    owl:equivalentProperty ecom:relatedToIssueType ;
+    owl:sameAs ecom:relatedToIssueType .
+
+owl:Nothing a owl:Class ;
+    rdfs:subClassOf ecom:Agent,
+        ecom:Customer,
+        ecom:FAQ,
+        ecom:Order,
+        ecom:Product,
+        ecom:SupportTicket,
+        owl:Nothing,
+        owl:Thing ;
+    owl:equivalentClass owl:Nothing ;
+    owl:sameAs owl:Nothing .
+
+"15513" owl:sameAs "15513" .
+
+"15836" owl:sameAs "15836" .
+
+"30905" owl:sameAs "30905" .
+
+"9454" owl:sameAs "9454" .
+
+"9751" owl:sameAs "9751" .
+
+ecom:0df0625523964459150dd3ba2509ebfcb7eafca3c99409495e70eb8d5aafc34b a ecom:Product,
+        owl:Thing ;
+    ecom:cost "13298" ;
+    ecom:productName "LG G4c" ;
+    owl:sameAs ecom:0df0625523964459150dd3ba2509ebfcb7eafca3c99409495e70eb8d5aafc34b .
+
+"13298" owl:sameAs "13298" .
+
+"20799" owl:sameAs "20799" .
+
+"cancelled" owl:sameAs "cancelled" .
+
+ecom:149c39bce96b1b74d544f3cfc3f6ff9035a05b59d46fe4a4af465d29cbd77a01 a ecom:Product,
+        owl:Thing ;
+    ecom:cost "9751" ;
+    ecom:productName "Motorola EX212" ;
+    owl:sameAs ecom:149c39bce96b1b74d544f3cfc3f6ff9035a05b59d46fe4a4af465d29cbd77a01 .
+
+ecom:5b4cab0ee696cbf46f795b0b40fa316e259692ba520e67633b035f291bb83dfa a ecom:Product,
+        owl:Thing ;
+    ecom:cost "15836" ;
+    ecom:productName "Ericsson GF 388" ;
+    owl:sameAs ecom:5b4cab0ee696cbf46f795b0b40fa316e259692ba520e67633b035f291bb83dfa .
+
+ecom:Agent a owl:Class ;
+    rdfs:subClassOf ecom:Agent,
+        owl:Thing ;
+    owl:equivalentClass ecom:Agent ;
+    owl:sameAs ecom:Agent .
+
+ecom:FAQ a owl:Class ;
+    rdfs:subClassOf ecom:FAQ,
+        owl:Thing ;
+    owl:equivalentClass ecom:FAQ ;
+    owl:sameAs ecom:FAQ .
+
+"in-transit" owl:sameAs "in-transit" .
+
+ecom:adbd9bfada4ca518db1f8eaf2d1fc7d61914d6afe4a7701ee1e5cb491794853a a ecom:Product,
+        owl:Thing ;
+    ecom:cost "17412" ;
+    ecom:productName "Motorola RIZR Z3" ;
+    owl:sameAs ecom:adbd9bfada4ca518db1f8eaf2d1fc7d61914d6afe4a7701ee1e5cb491794853a .
+
+owl:ObjectProperty owl:sameAs owl:ObjectProperty .
+
+ecom:SupportTicket a owl:Class ;
+    rdfs:subClassOf ecom:SupportTicket,
+        owl:Thing ;
+    owl:equivalentClass ecom:SupportTicket ;
+    owl:sameAs ecom:SupportTicket .
+
+"17412" owl:sameAs "17412" .
+
+"5318" owl:sameAs "5318" .
+
+"delivered" owl:sameAs "delivered" .
+
+owl:Class owl:sameAs owl:Class .
+
+owl:AnnotationProperty owl:sameAs owl:AnnotationProperty .
+
+"shipped" owl:sameAs "shipped" .
+
+ecom:eeacc0e7481e2094f8f6a803d29e7dc1999c7d249387b1857c9e681e886547a4 a ecom:Product,
+        owl:Thing ;
+    ecom:cost "5318" ;
+    ecom:productName "vivo Xplay6" ;
+    owl:sameAs ecom:eeacc0e7481e2094f8f6a803d29e7dc1999c7d249387b1857c9e681e886547a4 .
+
+ecom:Product a owl:Class ;
+    rdfs:subClassOf ecom:Product,
+        owl:Thing ;
+    owl:equivalentClass ecom:Product ;
+    owl:sameAs ecom:Product .
+
+ecom:Customer a owl:Class ;
+    rdfs:subClassOf ecom:Customer,
+        owl:Thing ;
+    owl:equivalentClass ecom:Customer ;
+    owl:sameAs ecom:Customer .
+
+ecom:Order a owl:Class ;
+    rdfs:subClassOf ecom:Order,
+        owl:Thing ;
+    owl:equivalentClass ecom:Order ;
+    owl:sameAs ecom:Order .
+
+rdfs:Datatype owl:sameAs rdfs:Datatype .
+
+owl:Thing a owl:Class ;
+    rdfs:subClassOf owl:Thing ;
+    owl:equivalentClass owl:Thing ;
+    owl:sameAs owl:Thing .
+
